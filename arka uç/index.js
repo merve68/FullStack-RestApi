@@ -10,17 +10,7 @@ const PORT = 5000;
 
 app.use(bodyParser.json());
 app.use(cors());
-// Veri tabanı bağlantısı
-// mongoose
-//   .connect(
-//     "mongodb+srv://mervecoding:evrem1543@cluster0.himqkxc.mongodb.net/kapsulform?retryWrites=true&w=majority",
-//     {
-//       useNewUrlParser: true,
-//       useUnifiedTopology: true,
-//     }
-//   )
-//   .then(console.log("connected true"))
-//   .catch((err) => console.log(err));
+
 
 app.listen(PORT, () => {
   console.log("Server Çalıştı");
